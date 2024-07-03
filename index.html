@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Parametric Surface ThreeJS LenisJS</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<h1>Parametric Surface</h1>
+		<p class="info">
+			Most of the formulas are referenced from "<a target="_blank" href="http://www.3d-meier.de/tut3/Seite0.html"
+				>Parametrische Flächen und Körper</a
+			>".
+		</p>
+		<div id="wrap">
+			<canvas id="c"></canvas>
+			<div id="gallery"></div>
+		</div>
+		<p>Additional content will be added intermittently!</p>
+		<br />
+
+		<!-- using lenis.js -->
+		<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+
+		<!-- using three.js -->
+		<script async src="https://ga.jspm.io/npm:es-module-shims@1.6.3/dist/es-module-shims.js" crossorigin="anonymous"></script>
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+					"three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+				}
+			}
+		</script>
+		<script type="module" src="js/script.js"></script>
+	</body>
+</html>
