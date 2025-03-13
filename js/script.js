@@ -252,8 +252,7 @@ import { ParametricGeometry as a } from "three/addons/geometries/ParametricGeome
 		(M.userData.title = "Roman Surface"),
 		r.push(M),
 		(M = new a(N, 50, 30)).scale(0.2, 0.2, 0.2),
-		(M.userData.title =
-			"Twisted Torus<br>(from <a target='_blank' href='https://codepen.io/boytchev/pen/qBLKpjx'>Pavel Boytchev</a>)"),
+		(M.userData.title = "Twisted Torus"),
 		r.push(M),
 		(M = new a(W, 50, 50)).scale(0.25, 0.25, 0.25),
 		(M.userData.title = "Twisted Torus2"),
